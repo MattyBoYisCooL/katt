@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katter</title>
+
+  <style>
+    body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fffaf5;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffcc80;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  color: #5d4037;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.facts ul {
+  background: #fff3e0;
+  border-left: 5px solid #ffb300;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.breeds article {
+  background-color: #fbe9e7;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffcc80;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #5d4037;
+}
+
+@media (min-width: 600px) {
+  .breeds {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .breeds {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+  }
+
+  main {
+    padding: 0 2rem;
+  }
+}
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Katter – Våre Pelsede Venner</h1>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Om katter</h2>
+      <p>Katter er et av verdens mest populære kjæledyr. De er kjent for sin eleganse, selvstendighet og lekne personlighet.</p>
+      <img src="https://placekitten.com/600/300" alt="En søt katt">
+    </section>
+
+    <section class="facts">
+      <h2>Fakta om katter</h2>
+      <ul>
+        <li>Katter kan sove opptil 16 timer om dagen.</li>
+        <li>De bruker halen til å holde balansen.</li>
+        <li>En katt kan løpe opptil 48 km/t over korte avstander.</li>
+        <li>Katter kommuniserer med både kroppsspråk og lyder.</li>
+      </ul>
+    </section>
+
+    <section class="breeds">
+      <h2>Populære katteraser</h2>
+      <article>
+        <h3>Siamkatt</h3>
+        <p>Kjent for sitt elegante utseende og sosiale natur. De elsker oppmerksomhet!</p>
+      </article>
+      <article>
+        <h3>Britisk korthår</h3>
+        <p>En rolig og vennlig rase med tett pels og runde kinn.</p>
+      </article>
+      <article>
+        <h3>Maine Coon</h3>
+        <p>En av de største katterasene, kjent for sin vennlige og intelligente personlighet.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Laget av [Ditt navn] © 2025</p>
+  </footer>
+</body>
+</html>
